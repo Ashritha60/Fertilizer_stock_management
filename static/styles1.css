@@ -1,0 +1,91 @@
+/* Basic reset for margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+/* Body styling with background image */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    
+ }
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #ffffff;  /* White text to stand out on top of the background image */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Link styling for "Add New Fertilizer" */
+a {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* Table header styling */
+th {
+    background-color: #34495e;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Table data cell styling */
+td {
+    background-color: #fff;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table row hover effect */
+tr:hover {
+    background-color: #ecf0f1;
+}
+
+/* Action links styling (Update/Delete) */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Action column (Update/Delete links) */
+td a {
+    margin-right: 10px;
+}
+
+/* Confirmation dialog for delete action */
+a[onclick] {
+    color: #e74c3c;
+}
+
+a[onclick]:hover {
+    color: #c0392b;
+}
